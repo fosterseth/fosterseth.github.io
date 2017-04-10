@@ -1,5 +1,7 @@
 ---
 layout: page
-title: About myself
+title: About
 permalink: /about/
 ---
+
+![My helpful screenshot]({{ site.url }}/assets/self.jpg)
