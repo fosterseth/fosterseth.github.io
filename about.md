@@ -1,7 +1,9 @@
 ---
 layout: page
-title: About
+title:  a little about me
 permalink: /about/
 ---
 
-![image of self]({{ site.url }}/assets/self_small.jpg)
+![image of self]({{ site.url }}/assets/self_small2.jpg)
+
+I am currently a research assistant at the Cog
