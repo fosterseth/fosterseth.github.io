@@ -3,4 +3,4 @@ layout: post
 title: "web-based image annotation"
 ---
 
-Coming to a browser near you!
+![image of grid]({{ site.url }}/assets/grid.png)
