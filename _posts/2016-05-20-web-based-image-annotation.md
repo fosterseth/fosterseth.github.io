@@ -27,13 +27,13 @@ Here is an example output file
     savefilename,../results/demo.txt
     confirmation_code,demo
     taskcode,demo
-    <span style="color: red">#selection
+    #selection
     ../images/demo/img_127.jpg,208,209,223,224
     ../images/demo/img_215.jpg,193,211,225,226,229
-    ../images/demo/img_3.jpg,137,154,155,172,173,174,175,191,192,193,209,210,227,228,229,245
+    ../images/demo/img_3.jpg,137,154,155,172,173
     ../images/demo/img_355.jpg,283,284,285
     ../images/demo/img_537.jpg,185,186,187,203,204
-    #end</span>
+    #end
     #textbox
     ../images/demo/img_127.jpg,horse
     ../images/demo/img_215.jpg,dog
@@ -42,6 +42,11 @@ Here is an example output file
     ../images/demo/img_537.jpg,apple
     #end
 
-{::[github/fosterseth]({{ site.github_url }}) for more details.}
+#config section simply states the configuration properties set for the coding session.
+#selection contain the image names and highlight squares.
+#textbox refers to the text input the user provided for the image.
+    
+<!--[github/fosterseth]({{ site.github_url }}) for more details.-->
+
 
 
