@@ -42,9 +42,6 @@ Here is an example output file
     ../images/demo/img_537.jpg,apple
     #end
 
-#config section simply states the configuration properties set for the coding session.
-#selection contain the image names and highlight squares.
-#textbox refers to the text input the user provided for the image.
     
 <!--[github/fosterseth]({{ site.github_url }}) for more details.-->
 
