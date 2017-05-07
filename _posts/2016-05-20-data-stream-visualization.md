@@ -4,4 +4,4 @@ title: "realtime behavior visualization"
 categories: misc
 ---
 
-To be updated.
+<iframe width="420" height="315" src="{{ site.url }}/assets/movie.mp4" frameborder="0" allowfullscreen></iframe
