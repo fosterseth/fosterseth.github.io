@@ -5,6 +5,7 @@ description: > # this means to ignore newlines until "baseurl:"
   programming tools; developmental psychology research
   
 github_url: https://github.com/fosterseth
+github_username: fosterseth
   
 # Minima date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
