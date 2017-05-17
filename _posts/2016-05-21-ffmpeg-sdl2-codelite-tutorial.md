@@ -50,21 +50,21 @@ This is a tutorial for setting up a native Windows GCC environment with the Code
 
 16. Time to test the whole thing. In your project /src/main.c, replace text with the following,
 
-        ```c
-        #include <stdio.h>
-        #include <SDL2/SDL.h>
-        #include <libavutil/imgutils.h>
-        #include <libavutil/samplefmt.h>
-        #include <libavutil/timestamp.h>
-        #include <libavformat/avformat.h>
-        #include <libswresample/swresample.h>
-        
-        int main(int argc, char *argv[]){
-            SDL_Init(SDL_INIT_VIDEO);
-            SDL_Quit();
-            return 0;
-        }
-        ```
+```c
+#include <stdio.h>
+#include <SDL2/SDL.h>
+#include <libavutil/imgutils.h>
+#include <libavutil/samplefmt.h>
+#include <libavutil/timestamp.h>
+#include <libavformat/avformat.h>
+#include <libswresample/swresample.h>
+
+int main(int argc, char *argv[]){
+    SDL_Init(SDL_INIT_VIDEO);
+    SDL_Quit();
+    return 0;
+}
+```
 17. Go to Build tab, click Build Project. Hopefully the console doesn't give you compilation errors.
 
 18. Rejoice!
