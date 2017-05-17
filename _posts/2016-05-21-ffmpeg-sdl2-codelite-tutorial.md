@@ -46,7 +46,7 @@ This is a tutorial for setting up a native Windows GCC environment with the Code
 
     ![linker_tab]({{ site.url }}/assets/linker_tab.PNG)
 
-16. Time to test the whole thing. In your project **/src/main.c**, replace text with the following,
+16. Time to test the whole thing. In your project **/src/main.c**, replace the text with the following,
 
 ```c
 #include <stdio.h>
