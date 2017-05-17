@@ -50,6 +50,7 @@ This is a tutorial for setting up a native Windows GCC environment with the Code
 
 16. Time to test the whole thing. In your project /src/main.c, replace text with the following,
 
+        ```c
         #include <stdio.h>
         #include <SDL2/SDL.h>
         #include <libavutil/imgutils.h>
@@ -63,8 +64,7 @@ This is a tutorial for setting up a native Windows GCC environment with the Code
             SDL_Quit();
             return 0;
         }
-        
-        
-17. Go to Build, click Build. Hopefully the console doesn't give you errors.
+        ```
+17. Go to Build tab, click Build Project. Hopefully the console doesn't give you compilation errors.
 
 18. Rejoice!
