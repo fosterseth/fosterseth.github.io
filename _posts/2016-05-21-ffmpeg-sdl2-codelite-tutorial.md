@@ -5,10 +5,10 @@ title: "[tutorial] msys2, sdl2, ffmpeg, and codelite"
 
 This is a tutorial for setting up a native Windows GCC environment with the CodeLite IDE.
 
-1. Go to [msys2.org](http://msys2.org) and follow the instructions there to install msys2.
+1. Go to [msys2.org](http://www.msys2.org) and follow the instructions there to install msys2.
 (after installing, be sure to run msys2.exe and run pacman -Syu commands, as instructed)
 
-2. Go to [codelite.org](http://codelite.org) and download and run the installer.
+2. Go to [codelite.org](http://www.codelite.org) and download and run the installer.
 
 3. Launch **msys2.exe** and run the following commands,
 
