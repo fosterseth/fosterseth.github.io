@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Tutorial] msys2, sdl2, ffmpeg, and codelite"
+title: "[tutorial] msys2, sdl2, ffmpeg, and codelite"
 ---
 
 This is a tutorial for setting up a native Windows GCC environment with the CodeLite IDE.
@@ -28,11 +28,9 @@ This is a tutorial for setting up a native Windows GCC environment with the Code
 
     ![setup_compilers]({{ site.url }}/assets/setup_compilers.PNG)
 
-11. Your build settings should look like this,
+11. Your build settings match those in image below. You will need to manually add mkdir.exe
 
     ![build_settings]({{ site.url }}/assets/build_settings.PNG)
-
-    You will need to manually add mkdir.exe, probably since it's under /usr/ instead of /mingw64/
 
 12. Create a workspace and a new project. Simple console gcc app will do fine.
 
