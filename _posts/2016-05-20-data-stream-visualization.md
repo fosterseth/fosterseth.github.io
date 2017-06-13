@@ -4,7 +4,7 @@ title: "realtime behavior visualization"
 categories: misc
 ---
 
-<video src="{{ site.url }}/assets/movie.mp4" width="320" height="200" controls preload></video>
+<video src="{{ site.url }}/assets/movie.mp4" width="640" height="480" controls preload></video>
 
 video is best viewed in fullscreen
 
