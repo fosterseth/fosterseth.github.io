@@ -28,7 +28,7 @@ This is a tutorial for setting up a native Windows GCC environment with the Code
 
     ![setup_compilers]({{ site.url }}/assets/setup_compilers.PNG)
 
-11. Your build settings match those in image below. You will need to manually add **mkdir.exe**
+11. Your build settings should match those in image below. You will need to manually add **mkdir.exe**
 
     ![build_settings]({{ site.url }}/assets/build_settings.PNG)
 
