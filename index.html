@@ -13,19 +13,16 @@ document.getElementById("search_box").value = "rtx 2080";
 function add_website(v){
 	var entry_div = document.createElement("div");
 	div_websites.appendChild(entry_div);
-	
-	var checkbox = document.createElement("button");
-	checkbox.type = "button";
-	checkbox.id = v.name;
-	checkbox.value = v.name;
-	checkbox.addEventListener("mousedown", function (e) {
+		
+	var entry_a = document.createElement("a");
+	entry_div.appendChild(entry_a);
+	var link_text = document.createTextNode(v.name);
+	entry_a.appendChild(link_text);
+	entry_a.href = "www.google.com";
+	entry_a.addEventListener("mousedown", function(e){
 		e.preventDefault();
-		window.open(join_query(v.url, document.getElementById("search_box").value), 'parent');
+		entry_a.href = join_query(v.url, document.getElementById("search_box").value);
 	});
-	
-	var label = document.createTextNode(v.name);
-	checkbox.appendChild(label);
-	entry_div.appendChild(checkbox);
 }
 
 var websites = [
