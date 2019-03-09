@@ -1,0 +1,50 @@
+<html>
+<script>
+window.onload = function(){
+
+function join_query(q, text_to_insert) {
+	text_to_insert.replace(" ", "+");
+	return q[0].concat(text_to_insert, q[1]);
+}
+
+div_websites = document.getElementById("divwebsites");
+document.getElementById("search_box").value = "rtx 2080";
+
+function add_website(v){
+	var entry_div = document.createElement("div");
+	div_websites.appendChild(entry_div);
+	
+	var checkbox = document.createElement("button");
+	checkbox.type = "button";
+	checkbox.id = v.name;
+	checkbox.value = v.name;
+	checkbox.addEventListener("mousedown", function (e) {
+		e.preventDefault();
+		window.open(join_query(v.url, document.getElementById("search_box").value), 'parent');
+	});
+	
+	var label = document.createTextNode(v.name);
+	checkbox.appendChild(label);
+	entry_div.appendChild(checkbox);
+}
+
+var websites = [
+	{name: "Walmart", url: ["https://www.walmart.com/search/?cat_id=0&query=", ""]},
+	{name: "Amazon", url: ["https://www.amazon.com/s?k=", ""]},
+	{name: "Newegg", url: ["https://www.newegg.com/Product/ProductList.aspx?Submit=ENE&DEPA=0&Order=BESTMATCH&Description=","&N=-1&isNodeId=1"]},
+	{name: "Bestbuy", url: ["https://www.bestbuy.com/site/searchpage.jsp?st=", "&_dyncharset=UTF-8&id=pcat17071&type=page&sc=Global&cp=1&nrp=&sp=&qp=&list=n&af=true&iht=y&usc=All+Categories&ks=960&keys=keys"]},
+	];
+	
+for (w = 0; w < websites.length; w++) {
+	add_website(websites[w]);
+}
+
+}
+
+</script>
+<body>
+<input type="text" id="search_box">
+<div id="divwebsites">
+</div>
+</body>
+</html>
