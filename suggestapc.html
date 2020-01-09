@@ -1,3 +1,4 @@
+
 <html>
 <head>
   <link rel="stylesheet" href="styles.css">
@@ -65,13 +66,13 @@ window.onload = function(){
     // 	];
 
     var store = JSON.parse(localStorage.getItem('localstorage'));
-    if (store == null){
-      localStorage.setItem('localstorage', JSON.stringify(websites));
-      var store = JSON.parse(localStorage.getItem('localstorage'));
-    }
-    for (w = 0; w < store.length; w++) {
-    	add_website(store[w]);
-    }
+    // if (store == null){
+    //   localStorage.setItem('localstorage', JSON.stringify(websites));
+    //   var store = JSON.parse(localStorage.getItem('localstorage'));
+    // }
+    // for (w = 0; w < store.length; w++) {
+    // 	add_website(store[w]);
+    // }
 
     document.getElementById("toadd_button").addEventListener("click", addQuery);
 
