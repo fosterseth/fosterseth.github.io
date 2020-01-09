@@ -66,6 +66,10 @@ window.onload = function(){
     // 	];
 
     var store = JSON.parse(localStorage.getItem('localstorage'));
+    if (store == null){
+      store = [];
+    }
+
     // if (store == null){
     //   localStorage.setItem('localstorage', JSON.stringify(websites));
     //   var store = JSON.parse(localStorage.getItem('localstorage'));
