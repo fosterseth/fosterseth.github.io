@@ -58,25 +58,21 @@ window.onload = function(){
       div_websites.appendChild(label_x);
     }
 
-    // var websites = [
-    // 	{name: "Walmart", url: ["https://www.walmart.com/search/?cat_id=3944_3951_132982_1231618&query=", "&sort=price_low#searchProductResult"]},
-    // 	{name: "Amazon", url: ["https://www.amazon.com/s?k=", "&rh=n%3A541966%2Cn%3A13896597011&s=price-asc-rank&dc&qid=1554620698&rnid=2941120011&ref=sr_nr_n_2"]},
-    // 	{name: "Newegg", url: ["https://www.newegg.com/Product/ProductList.aspx?Submit=ENE&N=100019095%20100&IsNodeId=1&Description=","&name=Desktop%20Computers&Order=PRICE&Pagesize=60"]},
-    // 	{name: "Bestbuy", url: ["https://www.bestbuy.com/site/searchpage.jsp?_dyncharset=UTF-8&id=pcat17071&iht=y&keys=keys&ks=960&list=n&qp=category_facet%3DAll%20Desktops~pcmcat143400050013&sc=Global&sp=%2Bcurrentprice%20skuidsaas&st=", "&type=page&usc=All%20Categories"]},
-    // 	];
+    var websites = [
+    	{name: "Walmart", url: ["https://www.walmart.com/search/?page=1&query=", "&sort=price_low"]},
+    	{name: "Amazon", url: ["https://www.amazon.com/s?k=", "&rh=n%3A541966%2Cn%3A13896597011&s=price-asc-rank&dc&qid=1554620698&rnid=2941120011&ref=sr_nr_n_2"]},
+    	{name: "Newegg", url: ["https://www.newegg.com/Product/ProductList.aspx?Submit=ENE&N=100019095%20100&IsNodeId=1&Description=","&name=Desktop%20Computers&Order=PRICE&Pagesize=60"]},
+    	{name: "Bestbuy", url: ["https://www.bestbuy.com/site/searchpage.jsp?_dyncharset=UTF-8&id=pcat17071&iht=y&keys=keys&ks=960&list=n&qp=category_facet%3DAll%20Desktops~pcmcat143400050013&sc=Global&sp=%2Bcurrentprice%20skuidsaas&st=", "&type=page&usc=All%20Categories"]},
+    	];
 
     var store = JSON.parse(localStorage.getItem('localstorage'));
     if (store == null){
       store = [];
     }
 
-    // if (store == null){
-    //   localStorage.setItem('localstorage', JSON.stringify(websites));
-    //   var store = JSON.parse(localStorage.getItem('localstorage'));
-    // }
-    // for (w = 0; w < store.length; w++) {
-    // 	add_website(store[w]);
-    // }
+    for (w = 0; w < websites.length; w++) {
+    	add_website(websites[w]);
+    }
 
     document.getElementById("toadd_button").addEventListener("click", addQuery);
 
