@@ -1,0 +1,31 @@
+<html>
+<head>
+  <link rel="stylesheet" href="junior.css">
+</head>
+<script src="https://unpkg.com/wavesurfer.js"></script>
+<script>
+window.onload = function(){
+  var wavesurfer = WaveSurfer.create({
+    container: '#waveform',
+    waveColor: '#178ae8',
+    progressColor: '#434e57',
+    backend: 'MediaElement',
+    scrollParent: true,
+    barHeight: 2
+  });
+  wavesurfer.load('junior_small.mp3');
+  wavesurfer.on('ready', function () {
+    wavesurfer.play();
+});
+document.getElementById("playbutton").addEventListener("click", function(){
+  wavesurfer.playPause()
+})
+}
+</script>
+<body>
+  <div id="container">
+    <div id="waveform"></div>
+    <div id="playbutton">Play/Pause</div>
+  </div>
+</body>
+</html>
