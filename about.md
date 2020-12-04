@@ -4,7 +4,7 @@ title:  about
 permalink: /about/
 ---
 
-![image of self]({{ site.url }}/assets/self_small2.jpg)
+![image of self]({{ site.url }}/assets/self1.jpg)
 
 Hi! Thanks for visiting my page. This will serve as a platform for me to share some of my programming-related work, and maybe post some tutorials from time to time. I've had the great opportunity of working alongside a team of researchers at the [Computational Cognition and Learning Laboratory](http://www.indiana.edu/~dll/research.html), where we strive to understand the intricate details of how infants learn language from natural environments. Most of my efforts go into building up and maintaining a research infrastructure that provides task automation, data visualization, and data pattern exploration.
 
