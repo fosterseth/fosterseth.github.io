@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: no-title-post
+title: about
 permalink: /about/
 ---
 
