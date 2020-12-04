@@ -6,6 +6,8 @@ permalink: /about/
 
 ![image of self]({{ site.url }}/assets/self1.jpg)
 
-Hi! Thanks for visiting my page. This will serve as a platform for me to share some of my programming-related work, and maybe post some tutorials from time to time. I've had the great opportunity of working alongside a team of researchers at the [Computational Cognition and Learning Laboratory](http://www.indiana.edu/~dll/research.html), where we strive to understand the intricate details of how infants learn language from natural environments. Most of my efforts go into building up and maintaining a research infrastructure that provides task automation, data visualization, and data pattern exploration.
+2019 Backend web developer at Red Hat (python, golang)
+2017 Research technician at Cogan Lab - Duke University (matlab)
+2012 Research assistant at Computational Cognition and Learning Laboratory - Indiana University (matlab)
 
-Outside of programming, I enjoy spending time with my family, wading through soundcloud to find new music, working on my bicycle, following the chaos of the NBA season, playing board games, and watching films.
+Non-programming interests - strategy games, cycling, following the NBA, watching films (particularly horror/sci-fi), computer hardware, watercolor
